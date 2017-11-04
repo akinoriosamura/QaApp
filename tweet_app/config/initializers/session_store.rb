@@ -1,3 +1,4 @@
 # Be sure to restart your server when you modify this file.
 
-Rails.application.config.session_store :cookie_store, key: '_tweet_app_session', domain: '.prog-8.com'
+Rails.application.config.session_store :active_record_store, key: '_qa_app_session'
+
